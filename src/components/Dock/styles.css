@@ -1,0 +1,41 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.dock-body {
+    position: absolute;
+    width: 85vw;
+    bottom: 0;
+    background: rgba(212, 212, 212, 0.3);
+    margin-bottom: 4px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    
+    border-radius: 11px;
+}
+
+.dock-body img {
+    width: 63px;
+    height: 63px;
+    transition: 0.4s;
+    margin-bottom: 5px;
+}
+
+.dock-body img:hover{
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+
+
+.dock-body hr{
+    height: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+    opacity: 0.4;
+}
