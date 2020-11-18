@@ -23,79 +23,81 @@ import './styles.css';
 
 function Dock() {
     return(
-        <div className="dock-body">
-            <div id="finder">
-                <img src={finderIcon} alt=""/>
-            </div>
+        <div className="container">
+            <div className="dock-body">
+                <div id="finder">
+                    <img src={finderIcon} alt=""/>
+                </div>
 
-            <div id="launchpad">
-                <img src={launchpadIcon} alt=""/>
-            </div>
+                <div id="launchpad">
+                    <img src={launchpadIcon} alt=""/>
+                </div>
 
-            <div id="safari">
-                <img src={safariIcon} alt=""/>
-            </div>
+                <div id="safari">
+                    <img src={safariIcon} alt=""/>
+                </div>
 
-            <div id="message">
-                <img src={messagesIcon} alt=""/>
-            </div>
+                <div id="message">
+                    <img src={messagesIcon} alt=""/>
+                </div>
 
-            <div id="mail">
-                <img src={mailIcon} alt=""/>
-            </div>
+                <div id="mail">
+                    <img src={mailIcon} alt=""/>
+                </div>
 
-            <div id="maps">
-                <img src={mapsIcon} alt=""/>
-            </div>
-            
-            <div id="photos">
-                <img src={photosIcon} alt=""/>
-            </div>
+                <div id="maps">
+                    <img src={mapsIcon} alt=""/>
+                </div>
+                
+                <div id="photos">
+                    <img src={photosIcon} alt=""/>
+                </div>
 
-            <div id="facetime">
-                <img src={facetimeIcon} alt=""/>
-            </div>
+                <div id="facetime">
+                    <img src={facetimeIcon} alt=""/>
+                </div>
 
-            <div id="calendar">
-                <img src={calendarIcon} alt=""/>
-            </div>
+                <div id="calendar">
+                    <img src={calendarIcon} alt=""/>
+                </div>
 
-            <div id="contact">
-                <img src={contactIcon} alt=""/>
-            </div>
+                <div id="contact">
+                    <img src={contactIcon} alt=""/>
+                </div>
 
-            <div id="reminders">
-                <img src={remindersIcon} alt=""/>
-            </div>
+                <div id="reminders">
+                    <img src={remindersIcon} alt=""/>
+                </div>
 
-            <div id="notes">
-                <img src={notesIcon} alt=""/>
-            </div>
+                <div id="notes">
+                    <img src={notesIcon} alt=""/>
+                </div>
 
-            <div id="tv">
-                <img src={tvIcon} alt=""/>
-            </div>
+                <div id="tv">
+                    <img src={tvIcon} alt=""/>
+                </div>
 
-            <div id="music">
-                <img src={musicIcon} alt=""/>
-            </div>
+                <div id="music">
+                    <img src={musicIcon} alt=""/>
+                </div>
 
-            <div id="podcasts">
-                <img src={podcastsIcon} alt=""/>
-            </div>
+                <div id="podcasts">
+                    <img src={podcastsIcon} alt=""/>
+                </div>
 
-            <div id="appstore">
-                <img src={appstoreIcon} alt=""/>
-            </div>
+                <div id="appstore">
+                    <img src={appstoreIcon} alt=""/>
+                </div>
 
-            <div id="settings">
-                <img src={systemIcon} alt=""/>
-            </div>
+                <div id="settings">
+                    <img src={systemIcon} alt=""/>
+                </div>
 
-            <hr/>
+                <hr/>
 
-            <div id="disk">
-                <img src={diskIcon} alt=""/>
+                <div id="disk">
+                    <img src={diskIcon} alt=""/>
+                </div>
             </div>
         </div>
     );

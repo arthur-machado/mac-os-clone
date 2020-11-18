@@ -1,30 +1,34 @@
-div{
+ .container{
     display: flex;
     justify-content: center;
     align-items: center; 
-}
+} 
 
 .dock-body {
+
     position: absolute;
     width: 85vw;
     bottom: 0;
     background: rgba(212, 212, 212, 0.3);
-    margin-bottom: 4px;
+    margin-bottom: 6px;
 
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    flex-shrink: 0;
     align-items: center;
     padding: 10px;
     
     border-radius: 11px;
+
 }
+
 
 .dock-body img {
     width: 63px;
     height: 63px;
     transition: 0.4s;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 .dock-body img:hover{
