@@ -1,5 +1,6 @@
 .top-bar-container{
-   top: 3px;
+   z-index: -8;
+   top: 0;
    background: rgba(112, 112, 112, 0.6);
    width: 100vw;
 
@@ -7,7 +8,7 @@
    flex-direction: row;
 
    padding: 5px 30px 8px 30px;
-
+   position: fixed;
 }
 
 #first-menu {

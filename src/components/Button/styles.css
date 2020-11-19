@@ -1,0 +1,17 @@
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 75px;
+    height: -5px;
+    margin-bottom: -110px;
+    
+}
+
+.button-container svg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
