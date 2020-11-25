@@ -2,10 +2,11 @@ import React from 'react';
 
 import './styles.css';
 import { Desktop, Documents } from 'styled-icons/ionicons-outline';
-import {Icloud} from '@styled-icons/entypo-social';
+import { Icloud } from '@styled-icons/entypo-social';
 import { AppStore } from '@styled-icons/fa-brands';
 import { Clock } from '@styled-icons/bootstrap';
 import { CloudDownload } from '@styled-icons/material-outlined';
+import File from '../File';
 
 import Button from '../Button';
 
@@ -14,6 +15,7 @@ function Finder(){
         <div className="finder-container">
             <div id="side-bar">
                 <Button />
+
                 <div id="list-items">
                     <ul>
                         <span>iCloud</span>
@@ -56,7 +58,9 @@ function Finder(){
             </div>
 
             <div id="principal">
-                
+                <File folderName="Downloads"/>
+                <File folderName="User"/>
+                <File folderName="Home"/>
             </div>
         </div>
     );

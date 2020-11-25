@@ -13,10 +13,20 @@
     height: 450px;
     position: absolute;
 
+    animation: fadein 0.4s;
+
     margin-bottom: 15vh;
 
     border-radius: 11px;
     padding-left: 15px;
+}
+
+@keyframes fadein {
+   0% { transform: scale(0.2);}
+   25% { transform: scale(0.4);}
+   50% { transform: scale(0.6);}
+   75% { transform: scale(0.8);}
+   100% { transform: scale(1);}
 }
 
 .finder-container #side-bar{
@@ -25,7 +35,7 @@
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
-   border-right: 2px solid #a1a1a1;
+   border-right: 1px solid #a1a1a1;
    height: 100%;
    align-content: center;
    padding-right: 20px;

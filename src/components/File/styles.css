@@ -1,0 +1,13 @@
+.file-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 10px 20px;
+}
+
+.file-container span {
+    font-size: 14px;
+    color: #525252;
+}

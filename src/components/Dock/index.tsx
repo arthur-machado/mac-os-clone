@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import finderIcon from '../../assets/images/macos-11-icons/macos-11-all-icons-tld/migration.png';
 import launchpadIcon from '../../assets/images/macos-11-icons/macos-11-all-icons-tld/launchpad.png';
@@ -21,12 +21,24 @@ import diskIcon from '../../assets/images/macos-11-icons/macos-11-all-icons-tld/
 
 import './styles.css';
 
+import Finder from '../Finder';
+
 function Dock() {
+
+    const [finderVisible, setFinderVisible] = useState(false);
+
+    const onClickFinder = () => {
+        setFinderVisible(true);
+
+    };
+
     return(
+
         <div className="container">
+            {finderVisible ? <Finder /> : null}
             <div className="dock-body">
                 <div id="finder">
-                    <img src={finderIcon} alt=""/>
+                    <img src={finderIcon} alt="" onClick={ onClickFinder }/>
                 </div>
 
                 <div id="launchpad">
